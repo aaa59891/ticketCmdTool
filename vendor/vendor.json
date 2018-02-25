@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "MGMS+TSGwccOsYSTH1/tY19cCbU=",
+			"path": "gopkg.in/urfave/cli.v2",
+			"revision": "d3ae77c26ac8db90639677e4831a728d33c36111",
+			"revisionTime": "2018-01-28T18:24:52Z"
+		}
+	],
+	"rootPath": "github.com/aaa59891/ticket"
+}
