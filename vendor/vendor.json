@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "rro98K08E4cpMkmaMe6C0bQheSg=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "48a20a6e9f3f4d26095df82c3337efec6db0a6fc",
+			"revisionTime": "2018-02-22T04:04:12Z"
+		},
+		{
+			"checksumSHA1": "VIp1lZm6joWhlNdwhady8u//qRw=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "1c35d901db3da928c72a72d8458480cc9ade058f",
+			"revisionTime": "2017-01-02T12:52:26Z"
+		},
+		{
 			"checksumSHA1": "MGMS+TSGwccOsYSTH1/tY19cCbU=",
 			"path": "gopkg.in/urfave/cli.v2",
 			"revision": "d3ae77c26ac8db90639677e4831a728d33c36111",
