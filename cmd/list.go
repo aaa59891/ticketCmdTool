@@ -48,8 +48,13 @@ func listAvaibleTickets(c *cli.Context) error {
 	if err := db.DB.Find(&tickets, "email = ?", "").Error; err != nil {
 		return err
 	}
+	if len(tickets) == 0 {
+		fmt.Println("There is no avaible ticket.")
+		return nil
+	}
 	for _, ticket := range tickets {
 		fmt.Println(ticket.StringWithoutEmail())
 	}
+	fmt.Println("Avaible tickets count:", len(tickets))
 	return nil
 }

@@ -19,6 +19,5 @@ func init() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	DB.LogMode(true)
 	DB.AutoMigrate(&models.Ticket{})
 }
